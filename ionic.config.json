@@ -1,0 +1,7 @@
+{
+  "name": "Watermark",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
