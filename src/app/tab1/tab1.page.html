@@ -1,0 +1,11 @@
+<ion-content [fullscreen]="true">
+    <!--    <ion-input type="file" accept="image/x-png,image/gif,image/jpeg"></ion-input>-->
+    <div id="cargandoId">
+        <p>Cargando</p>
+    </div>
+    <div class="container mt-2">
+        <button type="button" class="mt-2 btn btn-outline-primary btn-block" (click)="takePicture()">Tomar foto</button>
+        <button type="button" class="mt-2 btn btn-outline-primary btn-block" (click)="sendFile()">Enviar imagen</button>
+        <div class="mt-2" id="container"></div>
+    </div>
+</ion-content>
