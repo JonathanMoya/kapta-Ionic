@@ -1,17 +1,11 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <!--    <ion-input type="file" accept="image/x-png,image/gif,image/jpeg"></ion-input>-->
+    <div id="cargandoId">
+        <p>Cargando</p>
+    </div>
+    <div class="container mt-2">
+        <button type="button" class="mt-2 btn btn-outline-primary btn-block" (click)="takePicture()">Tomar foto</button>
+        <button type="button" class="mt-2 btn btn-outline-primary btn-block" (click)="sendFile()">Enviar imagen</button>
+        <div class="mt-2" id="container"></div>
+    </div>
 </ion-content>
